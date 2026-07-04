@@ -1,0 +1,2773 @@
+{
+  "tenant": "department-egrc-demo",
+  "environments": [
+    "dev",
+    "test",
+    "prod"
+  ],
+  "applications": [
+    {
+      "name": "HQ-OCIO",
+      "groups": [
+        {
+          "name": "ADMIN",
+          "modules": [
+            {
+              "module_id": "e8982de7-46eb-5773-9701-f3ba570638fe",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8ec30182-bede-5f68-92d4-e58916f895c8",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b533ce1b-211a-50ee-8492-07926db3ca30",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e2955779-d9ec-5b0f-a9be-b8ada09fb685",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "955ae76c-7add-51f1-9ada-aa6dda80eb43",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f1d1fb95-057d-52f9-ac6a-f0349cbbaa76",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dfaeed86-9ffe-550b-8013-5a1da2728e2d",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "396024b7-f5e1-5906-9f44-eff614edcfb1",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "53195040-ba4f-5411-b353-5af7c31648ae",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1152075c-cac6-5436-a80e-00fa6713bc75",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f6575851-3c4f-5b75-87ac-a3be48c30f42",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "bc324786-6835-59e9-8c9e-00f3045b7b8a",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0ffe78c7-da12-52f7-a4b3-d55582508ac9",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "cfc9e2c5-fd8f-5307-8f0c-71ec010621db",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d51b3656-c823-5907-b079-285409b3656d",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ac247a83-f203-531a-ab24-4bd9eecb6fa5",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8966b2a5-e734-5069-967b-bc4f37076ad2",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a16ba39c-6459-54c1-aa4b-a820dba28aa6",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8c206f01-1ce9-59f1-8c80-5a5e05131dde",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d12da884-80d3-5da2-9ed1-4b1938c146be",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f4761373-f51f-57a8-af8e-d6463ccafd7f",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "889f3a6f-2391-5ad8-ba8c-82b5ca6e320a",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "948d800d-385d-5918-b8f8-e2362d5cab2e",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e1373712-8bd5-5d69-872b-2a607efb6408",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "97f5d537-a1b8-5878-a912-04d734929765",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "db793e3e-2eb6-5389-b428-ff6548affbf9",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6803df7f-af3e-5d59-9130-f831773b2d7b",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6ca6af5e-dfea-59bc-8f9c-1af5c51daadd",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "EXEC-RO",
+          "modules": [
+            {
+              "module_id": "46a63c3f-db4c-5323-a407-450fddc7976e",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "c93222af-3e18-5e76-bbd2-df1fd4e4bf52",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0683b3c1-db7c-5004-ae4e-408c535cd25c",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8b1f4cd3-45f6-5680-b338-6ce2dc50aa39",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a5c97ab8-3a05-55c6-9c80-e578a355759f",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0cdbef9f-fd48-5823-aacc-094733b1e1ea",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "281c3bf8-97ea-5ca9-b129-a1c59b70fc33",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "eecb6111-9798-5e12-b13e-922176edf4e3",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5e471e5a-26b1-5c7b-90c9-1e9d114c1ff8",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f5f1f8ab-5e3c-52b0-9377-59f95a5d3e33",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b6def22d-34c9-56aa-8857-b1672c0911bc",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e191d680-4444-5c37-b7f2-72d2bbe89d93",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0e3ba673-5ab3-57fb-b9e9-33a244242038",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a84fab0f-f637-5e1b-bd72-60682ea4b715",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "05e7d4a8-8da6-5d31-af37-78b442c119a2",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "094eebd7-25f0-52e0-add5-230a2dabc759",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f65c3ddb-01f2-5d95-8780-ad093837cf81",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "13f26645-4d2b-58a9-8d52-2373a4b4e33a",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "35d19c72-1298-5ffe-8e91-0147e043b456",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "2942c3d3-6511-5acf-8b50-642fcab74e60",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "40bef2e0-49eb-5bd8-824e-87a775722be5",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "edcb63b4-d25e-5cb9-bdca-2a0ec951913e",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ea62f883-89b4-5c4a-95a8-e0e70679a7bc",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7b1d7481-3f76-5ac1-adfb-687f87d95160",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "44c9448e-19c9-5b39-b8d4-7b366f23d691",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3d641073-f4f8-5e70-8432-58bdf2ecc921",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a26192de-7fc0-5cc4-b99c-03dcbc328829",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "634d99a1-df17-5a65-a6b0-48f82d5164ca",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "USER",
+          "modules": [
+            {
+              "module_id": "fd68905d-79a5-5f3b-af4d-5fa7a215a81f",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f18b544f-ac7c-5a23-bbf4-fe9944d3a845",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "eeab004f-4d57-51d8-8371-cf92897b5a0e",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "28713d9c-3b9a-562b-a963-50b5382eb68d",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a861f459-1b67-5527-8555-7da81e625dd5",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3656cad3-7803-5d97-9569-932a2cf8e58a",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "834aa014-4f1b-552a-983a-f248af646eba",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "48d9f26f-a0dd-5635-80d8-1b1ab49dfe74",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "bc8ecae8-5396-5286-bd08-202c24cf8d2a",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "56bfcefe-fe4f-57ab-a37c-dbd085d42411",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ba5184b5-b401-5d41-b1a9-bc5a437afd0b",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dafdf955-725e-57fb-865d-16260360bb65",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "395497e4-6605-58cc-ab12-40d81a53614d",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "cb883b68-9c22-53e9-a37a-3a33fb3141fe",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0e790794-d7f2-518a-a603-651c4884fa17",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7aad2829-7e58-54c6-997b-d7dda15ed714",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5a8e49f9-8710-5431-a738-eeca00960487",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3dde65f9-1cbb-5f5c-a4d8-80dbd8648bd7",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b6c2f09b-b13e-596a-8537-6a6336430125",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "9d826719-e3fa-5ac8-bf99-9d5d6d494e17",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1e732a57-72b0-5003-a162-ca91abebf5b7",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "c5467184-ec23-5c70-a09e-0bf29a27dd9b",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "16cb5e5d-6a62-501e-938f-0f117b2f8bd7",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "532cd5c5-506a-56d6-9a9b-55e23b5687f8",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "415a5565-5812-55f9-ad00-df42da5619a5",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5cecb6f0-709d-5b1c-9032-5aac301412c6",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "c15bb682-f350-5283-bbbc-f2949a99eb05",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b561ae50-9db7-55b5-b8ee-02ba1d47748b",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "ISSO",
+          "modules": [
+            {
+              "module_id": "6a117486-1c7f-58b5-84d4-c7bc6cc17617",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "792a8f9b-a7eb-5264-9e9c-e12cb16682d6",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "308ea3e1-3213-5239-8cfd-f379e417f20d",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d95c863d-47ae-5f77-813e-38b0279e2baf",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "266fae29-0288-55ea-aa8e-fbdbd200fefc",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5770ff6a-102c-5a01-86c7-63bc41690c3a",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0c5d492c-84b2-5bfd-80f3-c02206587d63",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d2a24c58-a4ca-54f5-83b0-580b4a84f79c",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5b2a62de-5205-59f7-b320-edf3538678b2",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f593ae41-1c7d-5abf-9130-a0a0005d807c",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1a2b3162-3c08-59a3-ba44-a077946f1b23",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3a9cd136-239d-5800-84f5-70cff83277e6",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "bcc5c6db-1114-556a-9ec8-ff4d9079c108",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3d385c4f-36e6-5ce8-ab7c-f6aa23a9b91c",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "9d8959b9-0f0a-5157-9730-c10d7af16c56",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "11670289-7b72-50f7-8562-4596d2f548ff",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "eeac1593-a527-5b7a-af62-9c1a5a4809fc",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "47f68f2a-1db5-56cd-afb8-252a5e97366c",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5bad0c57-66dd-5a4d-a317-b3cdc9f0bdab",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f2335135-e426-527d-aa87-b3d8ab63de82",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "abc47a23-c403-57b3-a100-70e45b6561ab",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "95220976-8eb6-5f51-b99c-1704d29dd7ec",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e4c61cc5-b891-5ad5-a145-ddf95697bce5",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d80bdec7-2e98-5479-ab5c-988c49ce2068",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f756a817-0b03-5b74-8ca5-a4169a190d42",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5e6c8641-47da-5928-bae6-300cb0122123",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1694fee1-cc2e-5b1c-b862-1625a74e7c30",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6c9c5306-5a67-5c43-a0e8-170c649173e6",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Site-Alpha",
+      "groups": [
+        {
+          "name": "ADMIN",
+          "modules": [
+            {
+              "module_id": "05402f4b-c297-5379-9df3-545554cdf3fc",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "2b1b17a3-f834-5ff5-9985-fe7af56d1e7a",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d3e1bc0a-4838-5246-9777-9bf3025e6561",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1c3d9810-66f5-5d9a-a047-25e17f26d15a",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3c710b6c-6b04-552e-9cab-772ee04906d8",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ef3b6dac-d81a-5d3d-8f55-543b65b37b2f",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6be8da70-ec50-537b-ab01-932fd45772ff",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3beb2526-4fb0-5a2e-92b4-9c0af7160177",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "04c54cee-cc74-5344-b897-2d35e803d96a",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5fe4dad2-7e5d-55c6-a6f4-17bb330db19e",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "98e94bd1-f0f6-53bc-a3f3-c64a1d0c51a5",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5d3f15e4-0a36-50ab-aac7-70fbe00dd49c",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f7e6c5eb-a63f-5430-811c-db5da446af46",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dbe49e70-617f-5757-ab77-f5de58a89147",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f9cd8983-6b90-5734-917e-78ca748b57fc",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "cbeabaab-c437-5cc4-be2f-1f50c88a4e05",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7d38e937-37e5-55df-8d55-db9544f9d532",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a129821b-9049-5844-b0e9-5c4e9135458f",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "c11932f1-8218-59c7-b4c1-619665de11f8",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "350c969e-5781-5a83-a94a-70243339b4bf",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e1b0b4da-c96f-5627-9e4d-b2bb5c792340",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a264b25d-ace3-58f8-bec8-d3435713b429",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8be9bbe9-efc2-5343-b546-3f84e53a069b",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "c913e927-bb1b-597e-9c96-37082d732b72",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "70e2aad9-470a-5ed4-b833-0f7d24cb577e",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "71da7715-b955-5612-847e-c652f98ed71e",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8622e1eb-b930-5e99-a673-7febcdcb732d",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8b6269de-0685-5b05-8d5c-64b989220ab1",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "EXEC-RO",
+          "modules": [
+            {
+              "module_id": "4e413b2e-61d3-56a9-8b9a-990e8cd21619",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b6c52f40-da3e-55ea-9b15-cce908257e0e",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "bd97bf2e-c17d-5296-94fc-a029a76f0565",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "441abe8c-a36b-57a1-b39a-8b812df77d14",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "598895eb-5c69-571b-9b55-da59582c05ca",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d21700d0-9b7d-53b0-82c4-936ab27a3367",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "31965b49-cc8b-59f0-a6e8-f987a9e5fe2f",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "2de4e11c-7a02-5229-9c1c-9236e0c19215",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0e4331c8-6cde-5065-aa2c-456c14763b1c",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "58503d14-8bb8-5f80-839a-46c39ab52426",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "81bc6bf9-532f-564b-9f2a-ac38f46fd38c",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dfd385c9-06a5-5596-983c-be944a1671a7",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "92c084f2-25e2-5373-85cb-056fdef556e3",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7f8a171d-7a20-59e3-8c1a-befc50b07867",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "9599341a-7cf0-5cd6-bc8f-59daf5c0f9f7",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "144f1bf0-b30d-5309-aa16-edd1be013bb0",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d487203f-8d0d-599b-a87d-66c5235bc423",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "fb21521a-c48a-5343-9eff-bb9a81db245f",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7baec2d0-5bdd-5268-9f8e-3aae5581b675",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "be12563d-5710-57bd-9fc5-770e9fbebd71",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8fcfabe0-818f-5f62-9ffc-81d42151d106",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "75904f2a-02e1-554a-b949-2f030206c3f7",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f86e44d1-52e8-593e-9eba-18be06fa8d46",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "30ce9dcc-6004-5e3e-9fca-5fad9f2e3a0f",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f63c7736-f865-52e8-95b2-9a737beb9ee5",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "fcc95edc-94d6-5e36-9ebe-056a9d99ba39",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "4b182ae6-829f-5c69-ab56-9bdd4bce9864",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ed17163a-4a42-59f8-85b8-09853ffdf0f4",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "USER",
+          "modules": [
+            {
+              "module_id": "631aa644-a5e0-54c2-b690-7c14fb4029de",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "33cb4419-c99c-562c-b294-5394be50bdc4",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d6ebe340-5977-55a1-ab6c-9497de50c806",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a693219e-54f6-597f-8b93-7f0d8d5510da",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "553a2e23-ff18-5384-a684-e0797e32b1dc",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ea5690ac-55cc-5c22-a278-d4f69a20a631",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d010c95b-8ccb-59c9-ab05-c38078cf3a7e",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a3d31741-f0d5-58e6-bb0e-82e756458836",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "17cbc5ad-357e-5b8f-8077-2162434beeed",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ded32777-0ed0-5907-8300-199cb6491d2a",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8d8c346b-2ab7-521e-9316-d3718dd68f6d",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "74c1c331-376a-59af-b594-2c73fb9ae2ce",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "69ae4382-89b6-58cb-9d8e-f2af7b658eb5",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "fc84186c-e9be-5014-8a9c-50a9bb95896b",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ab34b065-a6c3-53e9-8ea4-5f258d8e5d62",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "61067697-1550-59bc-ba0a-77deb9ed9d87",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "81c62cba-38ad-5d5f-803a-3b92247580c7",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "515e5290-1d26-58fb-a29a-0d3f202ccf0e",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "166e1d31-5e0b-57bf-9fbb-e761c6276558",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "57545e3e-deb7-5fc8-92cb-54d07c08d37e",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "176f6e18-40e7-5c4a-ab87-f8bcc1054ca4",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7308c305-c36f-5e0a-84b7-726e7ff5ccf2",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f1966c82-558c-587a-8915-383c9e8ad5b2",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b1a5710c-52e0-5604-b32a-a8ebd04a0ea3",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "fb22e997-dc38-5991-a2df-7ee75fe5bec4",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5fca3bde-ce74-5e76-b7fe-de090d76921e",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1d2c9b01-67d1-5946-8a50-310777793004",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ce91ca43-ab79-525b-a1fa-0e67a1b6854f",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "ISSO",
+          "modules": [
+            {
+              "module_id": "69a6ef68-ff32-5e7f-86d6-76675287a3e4",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "63838b37-46bb-5649-8140-b515af48a5a6",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5c34cbb1-416f-5983-8cd2-74bc62f042c1",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d1b2ceb8-aa7f-5d24-930e-8501ba561930",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "567ce7ae-13a6-53c1-8cce-9a49a75e2d17",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ba6b8f8c-33bc-5de8-b678-5a55b5e8e41e",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "2600a2d1-e564-558a-8a60-a641f15da001",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b7e243ed-0599-5977-826d-00c82fdd2103",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "79370a38-9017-5c05-b7d1-8711fa06f77e",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d13eedf2-2d00-53ab-b0f4-f205f87943cd",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "07b68505-7039-5a5e-85a3-7b42f35c42fd",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "539d7cee-e14e-580d-9c1e-feee017b561e",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "fee5a876-f6c8-54d2-8456-766b723b6380",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b990fd1c-f7f0-5a5b-b493-d93960818254",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dfbdcbe4-4025-51b1-8d05-4beda748e36c",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "90286796-3fca-52e6-a958-87a0b7f2fd67",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5fbc0e11-6c0e-5058-afb9-971eb9d85107",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "06934709-7f89-5412-972d-29a07e39169a",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "980bcd55-2b9d-55c5-9dc9-0525b36c6e13",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f25a5c0c-e770-54b1-a776-7f72fe22000d",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b7d24150-af42-57b5-995d-835d178755b0",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a0e96aec-94e4-551d-a9a5-74ebaad374fc",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ed69043d-fab3-5302-83a9-b412e676d78f",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7a922e50-fa99-588a-be64-b44b3aa4c9cc",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "15dae18a-011f-5dc4-bcb6-9c378b8f5dbb",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8ef75dde-924c-5427-985a-415d42c68abd",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "10afd78b-482b-5974-bef2-4cb94aad32e9",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "36f64370-55e3-5e26-93b8-0a504e76fe3e",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "ASSESSOR",
+          "modules": [
+            {
+              "module_id": "4d3b2355-6c0b-55da-9a43-696377ecda14",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6214c55a-eae0-5201-93b6-e679337af191",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "feb1aff2-1a5e-5d01-b87f-32bee1b0bc17",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6d55e516-5a7f-546f-b44b-b34a784aa4a7",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3b4891e4-40a6-52da-95cb-ad8feddd5164",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6149042e-578d-527c-8733-df6f6271420f",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7ea38902-923a-5cf9-b957-c1206554e6ae",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0830cd51-dbc6-50dd-9efb-2a4af47beeff",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "81f72d75-985e-5b09-8635-accd21097386",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d8587889-7d16-5f1e-8ae0-e9ffcc094da2",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3a9eb10c-f764-5372-8e4e-58855c473c22",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "639526a8-301f-5c74-9bcf-e788ec4d7ae2",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "084eec1f-ae77-5b2b-9bca-7a4b22a35169",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "9e0862f7-6ed6-5129-a156-0a166d2b0e17",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e4848025-07db-5428-b2fd-182e00e885c5",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "26735fad-b662-55e3-ac92-f813a15c25a6",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f81c169f-3c02-505a-b28b-9b4ef77b2d71",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "2c9e5ccb-4f2a-5fd9-8555-42c3dea3f19a",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f473b61b-5e7c-5318-aa25-debe6817d798",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d758d817-adbd-5259-bdc2-4c39de0ba484",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6afbd1f0-a74e-5600-b65c-51419e7d0f52",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "fdb7a424-8d17-5e95-91a4-47480247afdd",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "4d052aec-3257-5e52-ba14-eba368c09629",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "36da9a7a-4057-5835-9e51-221cef2437df",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ac73becd-868a-5b6c-949e-e0a8feae27bd",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "38c2062f-49f0-5a44-84b7-cdecb9df5b90",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e0c9d0fa-c451-554b-bde5-fddfc2001f2e",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d4060852-37ae-5910-86b0-3e8bf8ab60c3",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Site-Bravo",
+      "groups": [
+        {
+          "name": "ADMIN",
+          "modules": [
+            {
+              "module_id": "afeb9c9b-a4e1-5729-bd1c-30dafe8174cd",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f8a5f3d6-af4d-5cff-a909-c15ce9d9a57f",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "68b99c4b-0860-5edd-90f5-4a700e448a9e",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b36b05a5-1b21-5f24-abf7-3fe0bca4e561",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "59e3344c-345c-5c12-9632-be6cf38186ec",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "aa6736b0-2f49-57f1-843f-0a27738e4728",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f5d29756-4d00-51f8-b001-f70e7314e177",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8991dbdd-5168-529a-b126-d2dc6a3efba6",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "79d62a40-1b70-5f7d-a619-2c8e40621358",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "065a81a8-b454-52fc-a4cb-35e5e7f24a16",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6417e61f-6abf-52bf-9765-2862aec46e6a",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "99f4009a-6df3-529e-9323-442cd5acfe2b",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a614c7b9-e707-5a84-96d5-dc0ec3fa8e77",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d2825b73-44aa-5d20-a9f7-9863ad4f16d3",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8220abaf-6f34-544e-a25f-994976d56a03",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6107d9cb-7f95-5b06-85d1-5a36a00ccd33",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ffa711e8-30dc-5051-ab9f-8134eba5008d",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ab53cbf8-dc53-5b1f-a32d-5f9be3dba49d",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "02915b6f-9f4f-5597-a5f5-294d4d3efd36",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3ff3c389-9b03-5912-b3a5-6b33de66f84a",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "906597b4-0a0b-5e8e-915d-47e04150d31a",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e90df612-0659-5f7e-a2e0-523e1a206b45",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0716baf8-c6aa-52f7-bca6-b03cbd0c31bd",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a1b84467-039f-5900-b9c6-a86c888d14ea",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "70890470-e216-5d78-943b-e8d71140fafe",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "99fbbd7b-ee28-5a45-8663-310e586c57d1",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "ce32f5d6-8c16-5e4d-89ff-ba97e725a446",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5029895a-3d8b-5f10-b3ea-1843cc57906f",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "EXEC-RO",
+          "modules": [
+            {
+              "module_id": "7aaf26fd-af93-5db2-92b9-5b99296b9023",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0e1101fc-7d2e-521d-942e-8d0452cb6537",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "8435efbc-1e7d-58d4-81c3-dfd5a32316de",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "87ffbaeb-1b96-5a75-ac96-1756b3eb6760",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0dd30033-a70e-550e-9909-1fe39ac3a7d4",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e6d2987b-938f-59e2-88f7-3fcedb6499ff",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "77a974ae-3255-5172-a115-282ae92a505a",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0bf5199b-06bb-5d26-b4b2-804c49ae4de7",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b3804bf4-58bf-5b43-85b3-f65c717d03fc",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "973a4598-4b9b-5a1f-9333-6c3c53d4ccda",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "16f3fef7-f0d6-5d19-bb96-ad4ba5fc3d07",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "92614e3d-239c-5deb-9516-e0204c695328",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "96f4f919-8cac-5809-bba9-881e9cfadbc3",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dc0d395e-61e2-54d6-84c5-ad3358677c62",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "c5198fd7-edb2-5997-98ae-b18d052fda0d",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "abd09cef-f7e6-55f8-92d4-9b99c34a03e8",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "54488c06-0fbd-5f62-b4ae-d33feaf8d820",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7cd5fbb4-4cbb-5188-b7c7-a9d628f9992b",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0ae347b0-b2eb-5f57-8804-7f3bb6423104",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "0167807b-384e-5702-87ef-88f2de01568c",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "65c07fe7-394c-58ed-9674-82055423646c",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "46147602-12d0-5cb9-8cb0-4f526db7c8af",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "571c6f29-518e-5424-93c2-3e34dc2f66c7",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "7f9aac06-6a8a-55ca-bbdb-ca6c0938b465",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "cb4d94d7-9049-5f08-a9bb-a897139c3b31",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d60d143b-a935-553b-ae84-8dc3b2fe84a7",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "818a38eb-f040-5df5-8ec1-a552531aad44",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "1a5b5804-dc26-5c17-aa41-51854ac9e69d",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        },
+        {
+          "name": "USER",
+          "modules": [
+            {
+              "module_id": "ec8e6a83-4e67-5d62-8342-ecb108b35304",
+              "module": "systems",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "64451976-53a8-5bbb-8131-0e2f3fe297f2",
+              "module": "controls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f1684107-d414-552a-95ec-a5489216b824",
+              "module": "assessments",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "964602da-7f97-5078-a853-2d4b452aee99",
+              "module": "artifacts",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "a13262c4-e522-5d95-b9e8-67b66b383a73",
+              "module": "poams",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f6708b3f-7b4c-582f-8ff1-2a4771dd3f5b",
+              "module": "ssp",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "416d1714-ae0b-5748-addd-343423c26f73",
+              "module": "risks",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3f5c3d5c-72e7-5d3b-bdf4-5b16fa63c6ef",
+              "module": "issues",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "cacdfa4e-a72b-5ce6-9bd5-5e6243748885",
+              "module": "incidents",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "d2de3b3e-02de-52c5-82f5-0ba14d6de7ff",
+              "module": "policies",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "f62a8431-f001-5e85-9aea-20e8678f0f3f",
+              "module": "procedures",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "b90ed22c-4103-5fa3-8d84-cb36848f2688",
+              "module": "supply_chain",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "997f65df-d3de-5355-9833-961cfff59746",
+              "module": "assets",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e2faeee5-f1e1-5625-aca6-30177ecb23ee",
+              "module": "data_calls",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "e359fd20-6f45-552c-b6e7-8b3bf2cf437b",
+              "module": "questionnaires",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "dcd44710-7d5f-5525-86b9-fce3276a6afa",
+              "module": "workflows",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "827bf796-6d9d-5938-a83b-b3d39c62b4a6",
+              "module": "reports",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "20671533-0a3e-5c00-93ed-fdb3af5d96ab",
+              "module": "dashboards",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "01605a27-c63e-5536-a673-26fca1f9c9d5",
+              "module": "catalogs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "93dc40b6-febc-532d-be49-69c4d8076897",
+              "module": "profiles",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "72bb431b-6fef-54dc-8df7-0c3be28e2982",
+              "module": "components",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "01a3c873-f27a-5cd4-b663-c463d07e8cf7",
+              "module": "interconnects",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3cca59ca-e3be-58cb-abad-1159812081b8",
+              "module": "exceptions",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "51f11665-5e28-5836-a064-306080a5a639",
+              "module": "evidence_requests",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "5405a264-03b6-55f5-be82-64624b19ce43",
+              "module": "milestones",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "db909468-380a-56f7-88bf-b1d7dd6f9da4",
+              "module": "audit_log",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "6b40abf2-ba25-5da8-ad80-3308f24baf26",
+              "module": "user_prefs",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            },
+            {
+              "module_id": "3803dd89-847c-5c39-862b-e89d3175d170",
+              "module": "admin_settings",
+              "create": false,
+              "read": true,
+              "update": false,
+              "delete": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
