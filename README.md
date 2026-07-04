@@ -1,4 +1,4 @@
-# EGRC Architect Lab
+# GRC Architect Lab
 
 So here's the thing. I've spent the past 10 years in the security field, doing engineering, DevSecOps, and making sure tools are compliant with NIST, FedRAMP, whatever framework the system needs. And recently I've been in conversations about a problem I keep seeing everywhere: a department drowning in GRC sprawl. One office keeps their accreditation records in one legacy GRC tool, another office is on a different one, and everybody else is basically living out of CSV files and shared drives. The fix is consolidating everything onto a single SaaS GRC platform, and to be honest, buying the tool is the easy part. The hard part is the access model, the messy data, and what life looks like for the admins after launch.
 
