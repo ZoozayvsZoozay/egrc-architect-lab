@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+cr-bundle/
+evidence/
+sample-data/*.normalized.csv
+sample-data/*.exceptions.csv
+.venv/
