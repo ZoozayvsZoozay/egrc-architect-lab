@@ -1,0 +1,13 @@
+system_name,system_acronym,owner_office,impact_level,ato_status,ato_expiration
+Enterprise Identity Service,eis,HQ-OCIO,Moderate,Active,2027-03-15
+Waste Tracking System, wts ,Site-Alpha,mod,current,03/22/2027
+Facility Access Portal,FAP,Site-Alpha,M,ATOed,22-Mar-27
+Legacy Records Archive,LRA,Site-Bravo,low,Expired,2024-11-01
+Environmental Sensor Net,ESN,Site-Bravo,High,in progress,
+Contractor Onboarding App,COA,,Moderate,Active,2026-12-31
+Budget Rollup Tool,BRT,HQ-OCIO,medium-ish,Active,2027-01-10
+Waste Tracking System,WTS,Site-Alpha,Moderate,Active,2027-03-22
+Radiation Survey Logger,RSL,Site-Alpha,H,pending,June 30, 2027
+Fleet Telemetry Hub,FTH,Site-Bravo,Low,n/a,not scheduled
+Emergency Notification Sys,ens,HQ-OCIO,High,Active,2026/09/30
+Physical Inventory Manager,PIM,Site-Bravo,Lo,lapsed,11/15/24
