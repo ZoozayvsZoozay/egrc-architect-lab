@@ -1,0 +1,38 @@
+# grc_groups role: the O&M wrapper around the permission templater.
+#
+# The point of this role is that "reapply the approved permission baseline"
+# becomes a scheduled playbook run instead of a person clicking through 28
+# modules per group in a console. Dry run first, always. The diff output
+# gets archived as continuous monitoring evidence (AC-2(1), CM-6).
+
+- name: Dry run the permission template against each managed group
+  ansible.builtin.command: >
+    python3 {{ repo_root }}/scripts/group_permission_templater.py
+    --app "{{ item.app }}" --group "{{ item.group }}"
+    --template {{ item.template }} --dry-run
+  loop: "{{ grc_managed_groups }}"
+  register: dry_runs
+  changed_when: false
+
+- name: Archive dry run diffs as evidence
+  ansible.builtin.copy:
+    dest: "{{ evidence_dir }}/{{ ansible_date_time.date }}-{{ item.item.app }}-{{ item.item.group }}.txt"
+    content: "{{ item.stdout }}"
+    mode: "0644"
+  loop: "{{ dry_runs.results }}"
+  loop_control:
+    label: "{{ item.item.app }}/{{ item.item.group }}"
+
+- name: Apply the template where the dry run found drift
+  ansible.builtin.command: >
+    python3 {{ repo_root }}/scripts/group_permission_templater.py
+    --app "{{ item.item.app }}" --group "{{ item.item.group }}"
+    --template {{ item.item.template }}
+  loop: "{{ dry_runs.results }}"
+  loop_control:
+    label: "{{ item.item.app }}/{{ item.item.group }}"
+  when:
+    - not ansible_check_mode
+    - "'would change' in item.stdout"
+  register: applied
+  changed_when: "'applied' in applied.stdout | default('')"
