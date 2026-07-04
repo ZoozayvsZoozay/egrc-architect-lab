@@ -1,0 +1,8 @@
+# Reapply the approved group permission baseline.
+#   ansible-playbook ansible/baseline.yml            (apply drift fixes)
+#   ansible-playbook ansible/baseline.yml --check    (report only)
+- name: GRC group permission baseline
+  hosts: localhost
+  gather_facts: true
+  roles:
+    - grc_groups
