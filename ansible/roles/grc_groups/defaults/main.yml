@@ -1,0 +1,18 @@
+repo_root: "{{ playbook_dir }}/.."
+evidence_dir: "{{ playbook_dir }}/../evidence"
+
+# the approved baseline: which template each managed group must match.
+# adding a group here IS the change control step, reviewed via pull request.
+grc_managed_groups:
+  - { app: "HQ-OCIO",    group: "ADMIN",    template: "admin" }
+  - { app: "HQ-OCIO",    group: "EXEC-RO",  template: "exec-ro" }
+  - { app: "HQ-OCIO",    group: "USER",     template: "user" }
+  - { app: "HQ-OCIO",    group: "ISSO",     template: "isso" }
+  - { app: "Site-Alpha", group: "ADMIN",    template: "admin" }
+  - { app: "Site-Alpha", group: "EXEC-RO",  template: "exec-ro" }
+  - { app: "Site-Alpha", group: "USER",     template: "user" }
+  - { app: "Site-Alpha", group: "ISSO",     template: "isso" }
+  - { app: "Site-Alpha", group: "ASSESSOR", template: "assessor" }
+  - { app: "Site-Bravo", group: "ADMIN",    template: "admin" }
+  - { app: "Site-Bravo", group: "EXEC-RO",  template: "exec-ro" }
+  - { app: "Site-Bravo", group: "USER",     template: "user" }
