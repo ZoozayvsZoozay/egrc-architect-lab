@@ -1,0 +1,55 @@
+# Role permission templates.
+# Humans maintain these six blocks of intent. The templater resolves them
+# into the per group, per module unique IDs the platform actually wants.
+#
+# access values: full = CRUD, read = R only, contribute = CRU (no delete),
+#                update = RU, none = no access
+# "default" is the fallback for any module not named in overrides.
+# "scope" is future proofing for the vendor's parent child hierarchy:
+#   self = this application only, children = inherits downward when shipped.
+
+roles:
+  ADMIN:
+    description: Application administrator, owns config inside own container
+    default: full
+    scope: self
+    overrides: {}
+
+  EXEC-RO:
+    description: Leadership visibility, reads everything, changes nothing
+    default: read
+    scope: children
+    overrides: {}
+
+  USER:
+    description: Working analyst, writes where the work happens
+    default: read
+    scope: self
+    overrides:
+      artifacts: contribute
+      poams: contribute
+      assessments: update
+
+  ISSO:
+    description: System owner duties on controls and evidence
+    default: read
+    scope: self
+    overrides:
+      controls: contribute
+      artifacts: contribute
+      poams: contribute
+      ssp: contribute
+
+  ASSESSOR:
+    description: Independent assessment, reads all, writes assessments only
+    default: read
+    scope: self
+    overrides:
+      assessments: update
+
+  AUDITOR:
+    description: External review, read only, membership is time boxed
+    default: read
+    scope: self
+    overrides:
+      admin_settings: none
